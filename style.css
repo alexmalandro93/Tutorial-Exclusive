@@ -640,39 +640,40 @@ footer {
 
   shapes on the third column = 80vw
 */
+
 .shapes--0 {
   height: 35vh;
   width: 5vw;
 }
 .shapes--1 {
   height: 35vh;
-  width: 5vw;
+  width: 50vw;
 }
 .shapes--2 {
   height: 35vh;
-  width: 5vw;
+  width: 80vw;
 }
 .shapes--3 {
-  height: 35vh;
+  height: 70vh;
   width: 5vw;
 }
 .shapes--4 {
-  height: 35vh;
-  width: 5vw;
+  height: 70vh;
+  width: 50vw;
 }
 .shapes--5 {
-  height: 35vh;
-  width: 5vw;
+  height: 70vh;
+  width: 80vw;
 }
 .shapes--6 {
-  height: 35vh;
+  height: 95vh;
   width: 5vw;
 }
 .shapes--7 {
-  height: 35vh;
-  width: 5vw;
+  height: 95vh;
+  width: 50vw;
 }
 .shapes--8 {
-  height: 35vh;
-  width: 5vw;
+  height: 95vh;
+  width: 80vw;
 }
