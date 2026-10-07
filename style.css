@@ -612,6 +612,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .footer__logo--img {
@@ -629,6 +630,13 @@ footer {
 .footer__social--link,
 .footer__copyright {
   color: white;
+}
+
+.footer__anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*
@@ -650,6 +658,7 @@ footer {
   shapes on the second column = 50vw
 
   shapes on the third column = 80vw
+  
 */
 
 .shape {

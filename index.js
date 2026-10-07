@@ -12,7 +12,7 @@ function moveBackground(event) {
     const boolInt = isOdd ? -1 : 1;
     shapes[i].style.transform = `translate(${x * boolInt}px, ${y * boolInt}px) rotate(${x * boolInt * 10}deg)`;
   }
-}
+}}
 
 function toggleContrast() {
   contrastToggle = !contrastToggle;  
@@ -53,4 +53,4 @@ function toggleModal() {
   }
   isModalOpen = true;
   document.body.classList += "modal--open";
-}}
+}
