@@ -2,7 +2,7 @@
 
 * {
   margin: 0;
-  bottom: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -251,7 +251,7 @@ nav,
   width: 20px;
   height: 30px;
   border: 2px solid #242424;
-  border-radius: 24;
+  border-radius: 24px;
   display: flex;
   align-items: center; 
   justify-content: center;
@@ -358,7 +358,7 @@ nav {
   transition: all 300ms ease-in;
 }
 
-.modal--open .modal__contact 
+.modal--open .modal__contact,
 .modal--open .modal__about {
   transform: translateX(0%);
 }
@@ -553,6 +553,7 @@ nav {
   position: absolute;
   top: 50%;
   left: 90px;
+  opacity: 0;
   transform: translateY(100%);
   transition: opacity 300ms, transform 450ms ease;
   color: white;
@@ -577,7 +578,7 @@ nav {
 }
 
 .project__description--title {
-  margin: 40px;
+  font-size: 40px;
 }
 .project__description--sub-title {
   margin-top: 8px;
@@ -655,39 +656,39 @@ footer {
   position: fixed;
 }
 
-.shapes--0 {
+.shape--0 {
   top: 15vh;
   left: 5vw;
 }
-.shapes--1 {
+.shape--1 {
   top: 15vh;
   left: 50vw;
 }
-.shapes--2 {
+.shape--2 {
   top: 15vh;
   left: 80vw;
 }
-.shapes--3 {
+.shape--3 {
   top: 50vh;
   left: 5vw;
 }
-.shapes--4 {
+.shape--4 {
   top: 50vh;
   left: 50vw;
 }
-.shapes--5 {
+.shape--5 {
   top: 50vh;
   left: 80vw;
 }
-.shapes--6 {
+.shape--6 {
   top: 80vh;
   left: 5vw;
 }
-.shapes--7 {
+.shape--7 {
   top: 80vh;
   left: 50vw;
 }
-.shapes--8 {
+.shape--8 {
   top: 80vh;
   left: 80vw;
 }
